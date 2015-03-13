@@ -38,7 +38,7 @@ Enable the plugin
 Edit `config.rb` and append ( i.e at the very bottom of the file ) :
 
 ```
-AppConfig[:plugins] << "aspace-110-plugin"
+AppConfig[:plugins] << "aspace-112-plugin"
 ```
 
 Then restart ArchivesSpace.
