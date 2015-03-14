@@ -20,22 +20,24 @@ Download using git (recommended)
 --------------------------------
 
 ```
+cd /path/to/archivesspace/plugins
 git clone https://github.com/archivesspace/aspace-112-plugin
 ```
 
 Download using zip
 ------------------
+You can download a [zipped up version of the code](https://github.com/archivesspace/aspace-112-plugin/archive/master.zip) or use wget, curl, etc. Be sure to rename the unpacked directory to 'aspace-112-plugin' and put it in ArchivesSpace's plugins directory. For example: 
 
 ```
-wget https://github.com/lyrasis/aspace-112-plugin/archive/master.zip
+wget https://github.com/archivesspace/aspace-112-plugin/archive/master.zip
 unzip master.zip
-mv aspace-110-plugin-master aspace-112-plugin
+mv aspace-112-plugin-master aspace-112-plugin
 ```
 
 Enable the plugin
 -----------------
 
-Edit `config.rb` and append ( i.e at the very bottom of the file ) :
+Edit `config\config.rb` and append ( i.e at the very bottom of the file ) :
 
 ```
 AppConfig[:plugins] << "aspace-112-plugin"
